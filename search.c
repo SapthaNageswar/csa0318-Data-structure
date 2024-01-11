@@ -1,0 +1,23 @@
+#include <stdio.h>
+main()
+{
+  int a[10],n,i;
+  printf("enter the size of array :: \n");
+  scanf("%d",&n);
+    printf("enter the elements of array :: \n");
+  for(i=1;i<=n;i++)
+  {
+    scanf("%d",&a[i]);
+  }
+  int k;
+  printf("enter the number to search :: \n");
+  scanf("%d",&k);
+  for(i=1;i<=n;i++)
+  {
+    if(k==a[i])
+    {
+      printf("the element if found at index %d",i);
+    }
+  
+}
+}
